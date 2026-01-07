@@ -1,0 +1,28 @@
+body { font-family: sans-serif; background-color: #f0f2f5; padding: 40px; }
+.login-container { background: white; padding: 30px; border-radius: 4px; max-width: 450px; margin: auto; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+h2 { color: #333; margin-bottom: 5px; }
+.subtitle { color: #666; font-size: 14px; margin-bottom: 20px; }
+
+.input-group { margin-bottom: 20px; }
+label { display: block; font-weight: bold; color: #555; margin-bottom: 5px; }
+
+.password-field { position: relative; display: flex; align-items: center; }
+input { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; }
+
+/* Eye Icon Style */
+#togglePassword {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    color: #666;
+}
+
+#message { margin-top: 15px; }
+#message p { margin: 5px 0; font-size: 14px; }
+
+/* Validation States */
+.invalid { color: #d93025; }
+.invalid:before { content: "✖ "; margin-right: 8px; }
+
+.valid { color: #1e8e3e; }
+.valid:before { content: "✔ "; margin-right: 8px; }
